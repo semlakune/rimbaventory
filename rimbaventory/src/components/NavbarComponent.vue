@@ -1,11 +1,10 @@
 <script></script>
 <template>
-  <div class="flex h-16 shadow sticky">
-    <div class="mx-auto px-8 w-80 kiri flex items-center justify-center">
+  <div class="flex h-16 fixed w-screen">
+    <div class="mx-auto px-8 w-64 kiri flex items-center justify-center">
       <h1 class="font-bold">Rimbaventory <span class="text-green-700 font-black text-3xl">.</span></h1>
     </div>
     <div class="mx-auto px-8 bg-yellow-50 w-full">
-
     </div>
   </div>
 

@@ -49,11 +49,13 @@ export default {
 }
 </script>
 <template>
-  <div class="mx-auto px-8 w-full">
-    <button @click="modalHandler"
-            class="mt-5 bg-emerald-300 py-2 px-3 rounded-xl text-white font-semibold hover:bg-emerald-500">Add Product
-    </button>
-    <table class="border table-auto w-full text-left mt-5">
+  <div class="p-10 w-[1340px] ml-64">
+    <div class="fixed flex items-center mt-6 w-full h-16 bg-white">
+      <button @click="modalHandler"
+              class="bg-emerald-300 py-2 px-3 rounded-xl text-white font-semibold hover:bg-emerald-500">Add Product
+      </button>
+    </div>
+    <table class="border table-auto w-full mt-24 text-left mt-5">
       <thead>
       <tr class="border border-slate-300 bg-slate-200">
         <th class="p-3">No</th>

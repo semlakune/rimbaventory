@@ -1,6 +1,6 @@
 <script></script>
 <template>
-  <div class="p-8 w-80 kiri flex items-start justify-start">
+  <div class="p-10 pt-20 h-screen w-64 kiri flex items-start justify-start fixed">
     <div class="grid grid-rows-3 gap-4 w-full">
       <div>
         <button @click="$router.push('/')" class="font-bold item-nav text-left"><span><i class="fa-solid fa-house mr-5"></i></span>Dashboard</button>

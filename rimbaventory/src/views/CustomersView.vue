@@ -17,10 +17,10 @@
   }
 </script>
 <template>
-  <div class="mx-auto px-8 w-full">
+  <div class="p-10 w-[1340px] ml-64">
     <table class="border table-auto w-full text-left mt-10">
       <thead>
-      <tr class="border border-slate-300 bg-slate-200">
+      <tr class="border border-slate-300 mt-24 bg-slate-200">
         <th class="p-3">No</th>
         <th class="p-3">Name</th>
         <th class="p-3">Phone Number</th>
